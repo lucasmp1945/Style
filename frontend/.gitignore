@@ -1,5 +1,12 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+
+# Ignorar node_modules en el backend
+/node_modules
+
+# Ignorar node_modules en el frontend
+/path/to/frontend/node_modules
+
 # Compiled output
 /dist
 /tmp
@@ -41,9 +48,3 @@ testem.log
 .DS_Store
 Thumbs.db
 
-
-# Ignorar node_modules en el backend
-/node_modules
-
-# Ignorar node_modules en el frontend
-/path/to/frontend/node_modules
